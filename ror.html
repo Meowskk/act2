@@ -12,14 +12,13 @@
     <style>
         .ulo{
             background-color: #45ADA8;
-            padding: 10px;
-            width: 1200px;
-
-
+            
+            width: 100%;
+            border: 2px solid black;
 
         }
         .agtang{
-           /* width: 100%;*/
+            width: 100%;
             margin-left: -50px;
             padding: 10;
             display: flex;
@@ -30,7 +29,7 @@
         .agtang ul li{
             list-style: none;
             display: inline-block;
-            margin: 0;
+            margin-inline-start: 20px;
         
 
         }
@@ -48,11 +47,12 @@
             border-radius: 45%;
         }
         .pic{
-            width: 1220px;
+            width: 100%;
             height: 400px;
             background-size: cover;
             border-top-left-radius: 60px;
             border-bottom-right-radius: 60px;
+            border: 2px solid black;
 
         }
         .logo{
@@ -63,11 +63,12 @@
         }
         .liog{
             display: flex;
-            width: 1220px;
+            width: 100%;
             align-items: center;
             justify-content: space-between;
             background-color: #547980;
             border-bottom-left-radius: 20px;
+            border: 2px solid black;
 
         }
         .liog ul li{
@@ -85,10 +86,10 @@
         }
         .sponsors{
             width: 100%;
-            padding-top: 40px;
+            padding-top: 30px;
             padding-bottom: 20px;
             display: flex;
-           
+            border: 2px solid black;
             justify-content: space-between;
 
         }
@@ -105,6 +106,37 @@
             height: auto;
             
 
+        }
+        .about{
+            background-color: #45ADA8;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            border: 2px solid black;
+        }
+        .left{
+            
+            border: 2px solid black;
+        }
+        .hoverleft{
+            border: 2px solid black;
+            display: flex;
+            padding-top: 10px;
+            padding-bottom: 10px
+            ;
+            justify-content: flex-end;
+        }
+        .hover2{
+            padding: 10px;
+            transition: background-color 0.3 ease ;
+        }
+        .hover2:hover{
+            background-color:  #116763;
+            
+        }
+        .helpd{
+            width: 100%;
+            
         }
         
 
@@ -164,8 +196,26 @@
                 </li>
             </ul>
     </div>
-    <div>
-        <p>about USTP</p>
+    <div class="about">
+        <div class="left">
+            <p>about USTP</p>
+        </div>
     </div>
+    <div class="text">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo mollitia facilis laudantium dolorum nam aspernatur necessitatibus minima, dicta commodi quam sunt accusamus officia ipsam voluptatum eligendi tempora placeat voluptates iste inventore velit? Aperiam at in, sunt magni perspiciatis ipsa quia excepturi officiis saepe, dignissimos eius consequuntur aliquid illo id voluptatibus soluta eum voluptas modi! Perspiciatis magnam dolore ratione cupiditate reprehenderit id quas consectetur natus, quidem itaque facere maiores laborum ipsam ducimus sed provident, dolorem dolorum veniam ad modi? Nulla, delectus, maiores corporis ipsum minima hic doloribus, dolorum voluptate consectetur et voluptas qui deleniti possimus quasi est magni at neque. Voluptate.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo mollitia facilis laudantium dolorum nam aspernatur necessitatibus minima, dicta commodi quam sunt accusamus officia ipsam voluptatum eligendi tempora placeat voluptates iste inventore velit? Aperiam at in, sunt magni perspiciatis ipsa quia excepturi officiis saepe, dignissimos eius consequuntur aliquid illo id voluptatibus soluta eum voluptas modi! Perspiciatis magnam dolore ratione cupiditate reprehenderit id quas consectetur natus, quidem itaque facere maiores laborum ipsam ducimus sed provident, dolorem dolorum veniam ad modi? Nulla, delectus, maiores corporis ipsum minima hic doloribus, dolorum voluptate consectetur et voluptas qui deleniti possimus quasi est magni at neque. Voluptate.</p>
+    </div>
+    <div class="hoverleft">
+
+        <div>
+            <a class="hover2">learn more about ustp</a>
+
+        </div>
+    </div>
+    <div class="helpdesk">
+        <img src="image/helpdesk.jpg" alt="help desk" class="helpd">
+
+    </div>
+
 </body>
 </html>
